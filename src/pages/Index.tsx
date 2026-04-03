@@ -211,7 +211,7 @@ export default function Index() {
             <p className="text-corp-gold text-xs uppercase tracking-[0.3em] mb-6 font-medium">
               Тендерная документация · 2024
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-display text-white leading-tight mb-6">
               ООО
               <br />
               <span className="text-corp-gold">«ПромГрупп»</span>
@@ -672,14 +672,14 @@ function SectionTitle({
   return (
     <div className="flex items-end gap-6 border-b border-current/10 pb-6">
       <span
-        className={`text-6xl font-bold leading-none ${
+        className={`text-6xl font-display leading-none ${
           light ? "text-white/10" : "text-corp-navy/10"
         }`}
       >
         {label}
       </span>
       <h2
-        className={`text-3xl md:text-4xl font-bold uppercase tracking-wider ${
+        className={`text-3xl md:text-4xl font-display tracking-wide ${
           light ? "text-white" : "text-corp-navy"
         }`}
       >

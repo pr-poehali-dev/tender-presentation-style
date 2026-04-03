@@ -20,13 +20,14 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				montserrat: ['Montserrat', 'sans-serif'],
+				montserrat: ['Nunito', 'sans-serif'],
+				display: ['"ZCOOL XiaoWei"', 'serif'],
 			},
 			colors: {
-				'corp-navy': '#0D1B2A',
-				'corp-gold': '#C9A84C',
-				'corp-bg': '#F5F4F0',
-				'corp-text': '#1A1A2E',
+				'corp-navy': '#6A704C',
+				'corp-gold': '#806245',
+				'corp-bg': '#EBE1D0',
+				'corp-text': '#3A2E22',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
