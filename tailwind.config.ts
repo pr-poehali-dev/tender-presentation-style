@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1775200835748024048.html"
 	],
 	prefix: "",
 	theme: {
@@ -18,7 +19,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				montserrat: ['Montserrat', 'sans-serif'],
+			},
 			colors: {
+				'corp-navy': '#0D1B2A',
+				'corp-gold': '#C9A84C',
+				'corp-bg': '#F5F4F0',
+				'corp-text': '#1A1A2E',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
