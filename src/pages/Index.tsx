@@ -147,10 +147,10 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-corp-gold flex items-center justify-center">
-              <span className="text-corp-navy font-bold text-sm">ПГ</span>
+              <span className="text-white font-bold text-xs">BF</span>
             </div>
-            <span className="text-white font-semibold tracking-wider text-sm uppercase">
-              ПромГрупп
+            <span className="text-white font-display tracking-wider text-sm uppercase">
+              BTL Family
             </span>
           </div>
 
@@ -212,9 +212,9 @@ export default function Index() {
               Тендерная документация · 2024
             </p>
             <h1 className="text-5xl md:text-7xl font-display text-white leading-tight mb-6">
-              ООО
+              BTL
               <br />
-              <span className="text-corp-gold">«ПромГрупп»</span>
+              <span className="text-corp-gold">Family</span>
             </h1>
             <p className="text-white/70 text-lg md:text-xl mb-10 leading-relaxed max-w-xl">
               Генеральный подрядчик в сфере промышленного и инфраструктурного строительства.
@@ -644,10 +644,10 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-6 h-6 bg-corp-gold flex items-center justify-center">
-              <span className="text-corp-navy font-bold text-xs">ПГ</span>
+              <span className="text-white font-bold text-xs">BF</span>
             </div>
             <span className="text-white/50 text-sm">
-              ООО «ПромГрупп» · ИНН 7718218476
+              BTL Family · Рекламное агентство
             </span>
           </div>
           <p className="text-white/30 text-xs text-center">
